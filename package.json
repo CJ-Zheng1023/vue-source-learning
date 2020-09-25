@@ -1,0 +1,22 @@
+{
+  "name": "vue-simulation",
+  "version": "0.1.0",
+  "description": "vue simulation",
+  "main": "dist/vue-sim.js",
+  "module": "dist/vue-sim.esm.js",
+  "scripts": {
+    "build": "node ./node_modules/rollup/dist/bin/rollup -c"
+  },
+  "keywords": [
+    "es6"
+  ],
+  "author": "CJ_Zheng",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-external-helpers": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "rollup": "^2.26.5",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
